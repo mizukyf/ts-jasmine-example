@@ -1,0 +1,35 @@
+{
+  "name": "ts-jasmine-example",
+  "version": "1.0.0",
+  "description": "An example of library made of TypeScript and tested by Jasmine.",
+  "main": "dist/example.min.js",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "keywords": [
+    "tokenizer"
+  ],
+  "author": "mizuky fujitani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mizukyf/ts-jasmine-example.git"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "@types/node": "^6.0.84",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-filter": "^5.0.0",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
+    "jasmine": "^2.5.3",
+    "run-sequence": "^2.0.0",
+    "typescript": "^2.4.2"
+  }
+}

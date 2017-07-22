@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "generated",
+    "declaration": true,
+    "sourceMap": true,
+    "types": ["node"]
+  }
+}
